@@ -2,7 +2,7 @@
   "name": "continuous-integration-lab",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main/app.js",
   "dependencies": {
     "express": "^4.17.1"
   },
@@ -14,7 +14,8 @@
     "supertest": "^4.0.2"
   },
   "scripts": {
-    "test": "mocha"
+    "start": "node src/main/app.js",
+    "test": "node ./node_modules/mocha/bin/mocha --exit \"src/test/cases/**/*.js\""
   },
   "repository": {
     "type": "git",
