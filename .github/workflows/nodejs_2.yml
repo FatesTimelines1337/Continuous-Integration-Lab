@@ -1,5 +1,5 @@
 name: Node CI 2
-on: [push]
+on: [status]
 
 jobs:
   build:
