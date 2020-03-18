@@ -5,7 +5,7 @@ const app = require('../../main/app')
 
 describe('GET - /', async () => {
 
-    it('returns 200', async () => {
+    it('returns hello', async () => {
         // make a GET request on the app for the url '/'
         const response = await request(app).get('/')
 
