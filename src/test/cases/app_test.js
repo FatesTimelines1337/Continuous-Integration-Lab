@@ -5,7 +5,7 @@ const app = require('../../main/app')
 
 describe('GET - /', async () => {
 
-    it('returns hello', async () => {
+    it('returns hello when listening to 300', async () => {
         // make a GET request on the app for the url '/'
         const response = await request(app).get('/')
 
@@ -15,7 +15,7 @@ describe('GET - /', async () => {
         expect(response.text).to.equal('Hello World!')
     })
 
-    it('returns goodbye', async () => {
+    it('returns goodbye when listening to 400', async () => {
         // make a GET request on the app for the url '/'
         const response = await request(app).get('/Goodbye')
 

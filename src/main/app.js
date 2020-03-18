@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 })
 
 app.listen(3000, () => {
-    console.log('Example app listening on http://localhost:3000')
+    //console.log('Example app listening on http://localhost:3000')
 })
 
 app.get('/Goodbye', (req, res) => {
@@ -17,7 +17,7 @@ app.get('/Goodbye', (req, res) => {
 })
 
 app.listen(4000, () => {
-    console.log('Example app listening on http://localhost:4000')
+    //console.log('Example app listening on http://localhost:4000')
 })
 
 module.exports = app;
