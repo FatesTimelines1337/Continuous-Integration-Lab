@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DogLover314/Continuous-Integration-Lab.git"
+    "url": "git+https://github.com/FatesTimelines1337/Continuous-Integration-Lab.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DogLover314/Continuous-Integration-Lab/issues"
+    "url": "https://github.com/FatesTimelines1337/Continuous-Integration-Lab/issues"
   },
-  "homepage": "https://github.com/DogLover314/Continuous-Integration-Lab#readme"
+  "homepage": "https://github.com/FatesTimelines1337/Continuous-Integration-Lab#readme"
 }
